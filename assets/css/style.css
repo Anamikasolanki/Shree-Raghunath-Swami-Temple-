@@ -6,7 +6,11 @@
 }
 body{
     color: #fff;
-    background-color: #000;
+    background-color: var(--primary-color);
+}
+:root{
+    --primary-color:#000;
+    --secondary-color:#fff;
 }
 .text-yellow{
     color: #b99c0b;
@@ -31,42 +35,16 @@ body{
 .bg-yellow{
     background-color: #b99c0b;
 }
-
-.bg-orange{
-    background-color: #EA512E;
+.lightMode{
+    background-color: #fff;
+    color: #000;
+}
+.darkMode{
+    background-color: #000;
+    color: #fff;
 }
 
-.bg-lightPurple{
-    background-color: #E7DDF4;
-}
 
-.bg-green{
-    background-color: #82B440;
-}
-
-.bg-pink{
-    background-color: #FDF6ED;
-}
-
-.bg-darkPink{
-    background-color: #FBC9D5;
-}
-
-.bg-skyBlue{
-    background-color: #D3F5FE;
-}
-
-.bg-skin{
-    background-color: #FCE0AD;
-}
-
-.bg-lightOrange{
-    background-color: #FEE9CA;
-}
-
-.bg-blue{
-    background-color: #091629;
-}
 
 .mt-6{
     margin-top: 60px;
@@ -231,6 +209,10 @@ header nav ul li:hover{
 header .dropdown .dropdown-menu .dropdown-item:hover{
     background-color: #b99c0b;
 }
+header #moon{
+    cursor: pointer;
+    width: 30px;
+}
 /* Header Section End */
 
 /* Responsive header section start */
@@ -278,11 +260,11 @@ header .dropdown .dropdown-menu .dropdown-item:hover{
 }
 /* Feedback Area End */
 
-/* Footer Section Start */
-
-.footer ul li a i:hover{
-    background-color: #F5890D;
+/* History Section Start */
+.history h6{
+    word-spacing: 5px;
+    line-height: 25px;
 }
+/* History Section End */
 
-/* Footer Section End */
 

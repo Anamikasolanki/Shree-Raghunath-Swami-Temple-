@@ -22,3 +22,10 @@ function form(){
     }
     
 }
+
+// Dark light button start
+var icon = document.getElementById('moon');
+icon.onclick=function(){
+    document.body.classList.toggle("lightMode");
+}
+// Dark light button end

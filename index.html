@@ -25,7 +25,7 @@
 <body>
 
     <!-- Header Section Start -->
-    <header class="header">
+    <header class="header position-fixed w-100">
         <nav class="navbar navbar-expand-xl bg-white">
             <div class="container">
               <a class="navbar-brand" href="index.html">
@@ -37,25 +37,29 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item ms-2  ">
-                        <a class="nav-link text-blue fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                        <a class="nav-link text-blue fw-bold" href="index.html" role="button">Home</a>
+                    </li>
+                    <li class="nav-item ms-2 dropdown ">
+                        <a class="nav-link text-blue fw-bold dropdown-toggle" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">History</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <div class="dropdown-item">History English</div>
+                            <div class="dropdown-item">History Hindi</div>
+                        </div>
                     </li>
                     <li class="nav-item ms-2  ">
-                        <a class="nav-link text-blue fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">History</a>
+                        <a class="nav-link text-blue fw-bold" href="#photos" role="button">Photos</a>
                     </li>
                     <li class="nav-item ms-2  ">
-                        <a class="nav-link text-blue fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Photos</a>
+                        <a class="nav-link text-blue fw-bold" href="#videos" role="button">Videos</a>
                     </li>
                     <li class="nav-item ms-2  ">
-                        <a class="nav-link text-blue fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Videos</a>
+                        <a class="nav-link text-blue fw-bold" href="#donate" role="button">Donation</a>
                     </li>
                     <li class="nav-item ms-2  ">
-                        <a class="nav-link text-blue fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Donation</a>
+                        <a class="nav-link text-blue fw-bold" href="#feedback" role="button">Feedback</a>
                     </li>
                     <li class="nav-item ms-2  ">
-                        <a class="nav-link text-blue fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Feedback</a>
-                    </li>
-                    <li class="nav-item ms-2  ">
-                        <a class="nav-link text-blue fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <a class="nav-link text-blue fw-bold" href="#about" role="button">About Us</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">                   
@@ -68,7 +72,7 @@
     <!-- Header Section End -->
 
     <!-- Hero Section Start -->
-    <section class="banner position-relative pb-5 pt-5">
+    <section class="banner pb-5 pt-15">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 first-text ">
@@ -89,8 +93,279 @@
     </section>
     <!-- Hero Section End -->
 
+      <!-- Photos Section Start -->
+    <section class="mt-10 mb-10" id="photos">
+        <!-- Gallery -->
+        <div class="container">
+          <div class="row">
+              <p class="text-yellow fw-bold">Explore Photos</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <img
+                src="./assets/img/first_image.JPG"
+                class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                alt="image1"
+              />
   
-    
+              <img
+                src="./assets/img/image16.jpeg"
+                class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                alt="image2"
+              />
+            </div>
+  
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <img
+                src="./assets/img/image15.jpeg"
+                class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                alt="image3"
+              />
+  
+              <img
+                src="./assets/img/fourth_image.JPG"
+                class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                alt="image4"
+              />
+            </div>
+  
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <img
+                src="./assets/img/fifth_image.JPG"
+                class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                alt="image5"
+              />
+  
+              <img
+                src="./assets/img/image14.jpeg"
+                class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                alt="image6"
+              />
+            </div>
+  
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <img
+              src="./assets/img/second_image.JPG"
+              class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+              alt="image7"
+              />
+  
+              <img
+              src="./assets/img/image15.jpeg"
+              class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+              alt="image8"
+              />
+            </div>
+  
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <img
+              src="./assets/img/image11.jpeg"
+              class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+              alt="image9"
+              />
+  
+              <img
+              src="./assets/img/third_image.JPG"
+              class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+              alt="image10"
+              />
+            </div>
+  
+            <div class="col-lg-4 mb-4 mb-lg-10">
+              <img
+              src="./assets/img/fifth_image.JPG"
+              class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+              alt="image11"
+              />
+  
+              <img
+              src="./assets/img/image12.jpeg"
+              class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+              alt="image12"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Gallery -->
+      </section>
+      <!-- Photos Section End -->
+  
+      <!-- Video Section Start -->
+      <section class="new mt-10 mb-10" id="videos">
+          <div class="container">
+              <div class="row">
+                  <p class="text-yellow fw-bold">Explore Videos</p>
+              </div>
+              <div class="row align-items-center">
+                  <div class="col-lg-6 text-center">
+                      <div class="news-content">
+                          <h2 class="fs-45 fw-bold text-blue">Watch Shree Raghunath Swami Temple Videos</h2>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 text-center">
+                      <button type="submit" name="submit" class="btn btn-1 w-50">Explore Videos</button>
+                  </div>
+              </div>
+          </div>
+        </section>
+      <!-- Video Section End -->
+
+      <!-- Video Section Start -->
+      <section class="new mt-10 mb-10" id="donate">
+        <div class="container">
+            <div class="row">
+                <p class="text-yellow fw-bold">Donate for Temple</p>
+            </div>
+            <div class="row align-items-center py-3">
+                <div class="col-lg-6 text-center">
+                  <div class="image">
+                    <img src="./assets/img/donate.jpeg" class="img-fluid rsponsive w-75">
+                  </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                  <div class="image-qr">
+                    <p class="fw-bold fs-45 text-yellow">Scan for Donate</p>
+                    <img src="./assets/img/qr-code.jpeg" class="responsive img-fluid" alt="">
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    <!-- Video Section End -->
+
+    <!-- Feedback Area Start -->
+    <section class="quote-area mt-10 mb-10" id="feedback">
+      <div class="container">
+        <div class="row">
+          <p class="fw-bold text-yellow">Give Your Feedback</p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="quote-item">
+              <form name="myform" onsubmit="return form()" class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  class="form-control"
+                  id="name"
+                />
+                <span id="err_name" class="text-danger fw-bold"></span>
+
+                <input
+                  type="city"
+                  name="city"
+                  placeholder="Your City Name"
+                  class="form-control"
+                  id="city"
+                />
+                <span id="err_city" class="text-danger fw-bold"></span>
+
+                <textarea name="text" id="text" rows="5" style="width: 100%;" class="border" placeholder="Enter Your Feedback"></textarea>
+                <span id="err_text" class="text-danger fw-bold"></span>
+
+                <input
+                  name="submit"
+                  type="submit"
+                  value="Submit Now"
+                  class="btn btn-1 w-100 mt-4"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feedback Area End -->
+
+     <!-- Footer Section Start -->
+     <footer class="footer pt-10 pb-10" id="about">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-lg-4 col-sm-6">
+                  <h1 class="text-yellow mb-3 fs-45 fw-bold mt-3">Shree Raghunath Swami Temple, Bhanpura</h1>
+                  <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis odio placeat perspiciatis ea rem odit ipsum necessitatibus iure consequuntur nobis ipsam similique reiciendis omnis quidem at animi voluptate.</p>
+                  <ul class="list-unstyled">
+                      <li class="d-inline-block">
+                          <a href="javascript:void()" class="text-decoration-none">
+                              <i class="p-2 bg-yellow rounded-circle text-white fa-brands fa-facebook"></i>
+                          </a>
+                      </li>
+                      <li class="d-inline-block">
+                          <a href="javascript:void()" class="text-decoration-none">
+                              <i class="p-2 bg-yellow rounded-circle text-white fa-brands fa-twitter"></i>
+                          </a>
+                      </li>
+                      <li class="d-inline-block">
+                          <a href="javascript:void()" class="text-decoration-none">
+                              <i class=" p-2 bg-yellow rounded-circle text-white fa-brands fa-instagram"></i>
+                          </a>
+                      </li>
+                      <li class="d-inline-block">
+                          <a href="javascript:void()" class="text-decoration-none">
+                              <i class="p-2 bg-yellow rounded-circle text-white fa-brands fa-linkedin"></i>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                  <h5 class="fw-bold text-yellow fs-30 mb-3 mt-3 ">Contact Us</h5>
+                  <ul class="contact list-unstyled text-white">
+
+                      <li class="fw-bold f-20">
+                          <i class="text-yellow fa-solid fa-phone"></i>
+                          <span>Phone</span>
+                          <li>
+                              <a href="javascript:void()" class="text-decoration-none text-white">882-567-464</a>
+                          </li>
+                      </li>
+                      
+                      <li class="fw-bold f-20 mt-3">
+                          <i class="text-yellow fa-solid fa-envelope"></i>
+                          <span>Email</span>
+                          <li class="mb-3">
+                              <a href="javascript:void()" class="text-decoration-none text-white">Hello@ketan.com</a>
+                          </li>
+                      </li>
+                      
+                      <li class="fw-bold f-20">
+                          <i class="text-yellow fa-solid fa-location-dot"></i>
+                          <span>Address</span>
+                          <li>
+                              <span>175 5th ave premium area, New Yor</span>
+                          </li>
+                      </li>
+
+                  </ul>
+              </div>
+
+              <div class="col-md-4 col-sm-6">
+                  <h5 class="text-yellow fw-bold fs-30 mt-3">Photo Gallary</h5>
+                  <div class="f-image">
+                      <div class="row">
+                          <div class="col"><img src="./assets/img/first_image.JPG" class="img-fluid" alt=""></div>
+                          <div class="col"><img src="./assets/img/second_image.JPG" class="img-fluid" alt=""></div>
+                          <div class="col"><img src="./assets/img/third_image.JPG" class="img-fluid" alt=""></div>
+                          <div class="w-100 mt-4"></div>
+                          <div class="col"><img src="./assets/img/fifth_image.JPG" class="img-fluid" alt=""></div>
+                          <div class="col"><img src="./assets/img/second_image.JPG" class="img-fluid" alt=""></div>
+                          <div class="col"><img src="./assets/img/first_image.JPG" class="img-fluid" alt=""></div>
+                          <div class="w-100 mt-4"></div>
+                          <div class="col"><img src="./assets/img/second_image.JPG" class="img-fluid" alt=""></div>
+                          <div class="col"><img src="./assets/img/fourth_image.JPG" class="img-fluid" alt=""></div>
+                          <div class="col"><img src="./assets/img/fifth_image.JPG" class="img-fluid" alt=""></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+   </footer>
+  <!-- Footer Section End -->
+
+
+  
     <!-- Font awesome js cdn link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/svg-with-js.min.css"></script>
 

@@ -15,17 +15,23 @@ function form(){
         return false;
     }
 
+    var form_con = document.getElementById('contact').value;
+    if(form_con==""){
+        document.getElementById('err_con').innerHTML="*Please enter your number";
+        return false;
+    }
+    if(!form_con.match(/^[0-9]/)){
+        document.getElementById('err_con').innerHTML="*Please enter valid number";
+        return false;
+    }
+
     var form_text=document.getElementById('text').value;
     if(form_text==""){
         document.getElementById('err_text').innerHTML="*Please enter your message";
         return false;
     }
-    
-}
 
-// Dark light button start
-var icon = document.getElementById('moon');
-icon.onclick=function(){
-    document.body.classList.toggle("lightMode");
 }
+// Dark light button start
+
 // Dark light button end

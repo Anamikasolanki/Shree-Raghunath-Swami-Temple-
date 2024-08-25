@@ -20,7 +20,7 @@
     <!--Custom css link -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-
+    <link rel="stylesheet" href="./assets/php/connect.php">
 </head>
 <body>
 
@@ -70,8 +70,7 @@
                   </li>
                 </ul>
               </div>
-              <img src="./assets/img/moon.png" id="moon" alt="moon">
-            </div>
+            </div> 
           </nav>
     </header>
     <!-- Header Section End -->
@@ -266,7 +265,16 @@
                   />
                   <span id="err_city" class="text-danger fw-bold"></span>
 
-                  <textarea name="text" id="text" rows="5" style="width: 100%;" class="border" placeholder="Enter Your Feedback"></textarea>
+                  <input
+                    type="number"
+                    name="number"
+                    placeholder="Contact Number"
+                    class="form-control"
+                    id="contact"
+                  />
+                  <span id="err_con" class="text-danger fw-bold"></span>
+
+                  <textarea name="message" id="text" rows="5" style="width: 100%;" class="border" placeholder="Enter Your Feedback"></textarea>
                   <span id="err_text" class="text-danger fw-bold"></span>
 
                   <input
